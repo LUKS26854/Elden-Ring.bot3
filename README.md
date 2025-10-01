@@ -4,8 +4,7 @@ print("Digite 'sair' para encerrar a conversa.\n")
 
 while True:
     pergunta = input("Você: ").strip().lower()
-
-
+    
     if pergunta == "sair":
         print("🤖: Até mais! Bons estudos! 👋")
         break
